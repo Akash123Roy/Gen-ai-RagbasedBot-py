@@ -16,7 +16,7 @@ import traceback
 generative_models = genai.GenerativeModel('models/gemini-2.0-flash-exp')
 model = SentenceTransformer('multi-qa-mpnet-base-dot-v1')
 
-API_KEY= "AIzaSyBjKe4Wk6CUtT0oSG1pUaq4Sn0ER90JpGY"
+API_KEY= ""
 # Configure the API key for Google Generative AI
 genai.configure(api_key=API_KEY)  # Replace with your actual API key
 
